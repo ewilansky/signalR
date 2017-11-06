@@ -1,0 +1,22 @@
+﻿<Page
+     x:Class="UWPTestSignalRCore02.MainPage"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:local="using:UWPTestSignalR"
+     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock x:ConnectionId='1' x:Name="textbl" Grid.Row="0" Margin="20" />
+        <Slider x:ConnectionId='2' x:Name="slider" Grid.Row="1" Margin="20" />
+        <TextBlock x:ConnectionId='3' x:Name="applabel" Grid.Row="2" Margin="20,5,0,5" Text="UWPTestSignlarRCore02" HorizontalAlignment="Left" VerticalAlignment="Center" />
+    </Grid>
+</Page>
+

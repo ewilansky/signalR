@@ -1,0 +1,1 @@
+c:\users\ethanw\code\UWPTestSignalR\UWPTestSignalRCore\UWPTestSignalRCore01.csproj;x86
